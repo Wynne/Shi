@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Full Width Header ~ Fixed Width Content</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style type="text/css">
+/*------ Resets -----*/
+body, address, blockquote, dl, ol, ul, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p, pre {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: #ccc;
+}
+html, body {
+    height: 100%; /* for sticky footer */ 
+    position:absolute;/* Opera height trigger*/
+    width:100%;
+}
+#header {
+    height: 115px;
+    width:100%;
+    min-width:962px;
+    margin-bottom:-115px;
+    background-color: #777;
+    position:relative;
+}
+* html #header {
+    width: 100%; /* Fallback width if javascript is off */
+    width: expression(  
+    (document.documentElement.clientWidth < 964) ? "962px" : "auto");
+}
+#wrapper {
+    min-height:100%; /* for sticky footer */
+    width: 960px;
+    background: white;
+    margin:0 auto;
+    border-left:2px solid #777; /*border width added to header and footer widths*/
+    border-right:2px solid #777; /*border width added to header and footer widths*/
+}
+* html #wrapper {height:100%;} /*for ie6, same as min-height*/
+
+#clearheader{height:115px; background:#ccc} /*clear header without margins or padding*/
+
+#navbar {
+    float:left;
+    height: 50px;
+    width: 765px;
+    background-color:#A6A6A6;
+}
+#sidebar {
+    float: right;
+    width: 195px;
+    background-color: #A6A6A6;
+}
+#content {
+    background-color: #fff;
+    width: 735px;
+    float: left;
+}
+#clearfooter{clear:both; height:50px;} /*For a sticky footer*/
+#footer {
+    width: 962px;
+    background-color: #777;
+    height:50px;
+    margin:-50px auto 0 auto; /*pull footer back into viewport and center*/
+}
+h1,h2,h3,h4,h5 {padding-top:10px; text-align:center;}
+#navbar h4 {line-height:1.5em; padding:10px; text-align:left}
+#content h2 {text-align:left; padding: 10px;}
+#footer h4 {line-height:1.25em;}
+p {margin:10px;}
+
+</style>
+
+</head>
+<body>
+
+<div id="header">
+    <h2>Full Width Header ~ Fixed Width Content</h2>
+    <h3>With a Sticky Footer</h3>
+</div><!-- end #header -->
+
+<div id="wrapper">
+    <div id="clearheader"></div>
+        <div id="sidebar">
+            <h4>Sidebar</h4>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Mauris vel magna. Mauris risus nunc, tristique varius, gravida in,
+            lacinia vel, elit. Nam ornare, felis non faucibus molestie, nulla augue
+            adipiscing mauris, a nonummy diam ligula ut risus. Praesent varius. Cum
+            sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus.</p>
+        </div><!-- end #sidebar -->
+        <div id="navbar">
+            <h4>Navigation</h4>
+        </div><!-- end #navbar -->
+        <div id="content">
+            <h2>Page Title</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Mauris vel magna. Mauris risus nunc, tristique varius, gravida in,
+            lacinia vel, elit. Nam ornare, felis non faucibus molestie, nulla augue
+            adipiscing mauris, a nonummy diam ligula ut risus. Praesent varius. Cum
+            sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Nulla a lacus. Nulla facilisi. Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit. Fusce pulvinar lobortis purus. Cum sociis
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+            mus. Donec semper ipsum et urna. Ut consequat neque vitae felis.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Mauris vel magna.</p>
+            
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Mauris vel magna. Mauris risus nunc, tristique varius, gravida in,
+            lacinia vel, elit. Nam ornare, felis non faucibus molestie, nulla augue
+            adipiscing mauris, a nonummy diam ligula ut risus. Praesent varius. Cum
+            sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Nulla a lacus. Nulla facilisi. Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit. Fusce pulvinar lobortis purus. Cum sociis
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+            mus. Donec semper ipsum et urna.</p>
+            
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Mauris vel magna. Mauris risus nunc, tristique varius, gravida in,
+            lacinia vel, elit. Nam ornare, felis non faucibus molestie, nulla augue
+            adipiscing mauris, a nonummy diam ligula ut risus. Praesent varius. Cum
+            sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Nulla a lacus. Nulla facilisi. Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit. Fusce pulvinar lobortis purus. Cum sociis
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+            mus. Donec semper ipsum et urna.</p>
+
+        </div><!-- end content -->
+    <div id="clearfooter"></div>
+</div> <!-- end wrapper -->
+<div id="footer"><h4>Footer</h4></div>
+</body>
+</html>
