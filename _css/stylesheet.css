@@ -1,18 +1,13 @@
-* {
-  border: none;
-  margin: 0px;
-  padding: 0px;
-  text-decoration: none;
-  list-style: none;
+*, body, address, blockquote, dl, ol, ul, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p, pre {
+  margin:0;
+  padding:0;
+	border:none;
+	text-decoration: none;
+	list-style: none;
 }
-html, body {
-  height: 100%; /* for sticky footer */ 
-  position: absolute; /* Opera height trigger*/
-  width: 100%;
-}
+
 body {
-  background: url('../img/homepage-bg.png') repeat-y;
-  background-position: 0 0;
+  background: url('../_img/homepage-bg.png') repeat-y;
   background-attachment: fixed;
   background-color: #000000;
   font-family: Helvetica, sans-serif;
@@ -23,29 +18,26 @@ body {
 p {
   font-size:1.2em;
   line-height:1.5em;
-  letter-spacing: .02em;
-  
+  letter-spacing: .02em;  
 }
 #header {
-  background: url('../img/header-bg.png') repeat-x;
+  background: url('../_img/header-bg.png') repeat-x;
   height: 95px;
   width: 100%;
   min-width: 800px;
-  position: absolute;
 }
 .hwrap {
   width: 800px;
   margin: 0 auto;
   padding: 25px 15px 0;
-  overflow: visible;
 }
 a.logo {
-  background: url('../img/logo.png') no-repeat;
+  background: url('../_img/logo.png') no-repeat;
   width: 112px;
   height: 46px;
   display: block;
   float: left;
-  margin-left:15px;
+  margin-left: 15px;
 }
 #nav {
   float: left;
@@ -70,22 +62,14 @@ a.logo {
   text-shadow: 0px -1px 1px #000;
 }
 #content {
-  position:relative;
-  margin: 0 auto -130px;/*should be -115px */
-  width: 800px;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%; /* For IE */
+ 	width: 800px;
+	margin: 0 auto;
 }
-#clearheader {
-  height: 95px;
-}
+
 #splash {
   width: 100%;
-  /* Fallback for web browsers that doesn't support RGBa */
-  background: rgb(5, 7, 7);
-  /* RGBa with 0.6 opacity */
-  background: rgba(50, 7, 7, 0.6);
+  background: rgb(5, 7, 7); /* Fallback for web browsers that doesn't support RGBa */
+  background: rgba(50, 7, 7, 0.6); /* RGBa with 0.6 opacity */
   overflow: hidden;
 }
 
@@ -113,19 +97,98 @@ address {
   font-weight: normal;
 }
 
-
 #footer {
-  background: url('../img/footer-bg.png') repeat-x;
-  height: 115px;
+  background: url('../_img/footer-bg.png') repeat-x;
+  height: 95px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 .fwrap {
   margin: 0 auto;
   width: 800px;
-  margin-top: 15px;
+	overflow: hidden;
 }
 .cta {
   float:left;
   font: normal 1.2em "Helvetica Neue", sans-serif;
+	line-height: 1.5em;
   width:170px;
-  padding: 15px;
+  padding: 30px 15px 0;
 }
+/*menu*/
+#menu {
+	background-color: #000;
+	float: left;
+}
+.catbox {
+	float: left;
+	padding: 15px;
+}
+h3.category {
+	font-size: 1.6em;
+}
+.pleasers {
+	width: 300px;
+	float: left;
+}
+.pleasers h1 {
+	font-size: 1.2em;
+	text-transform: capitalize;
+	color: #fff;
+	margin-top: 15px;
+	float: left;
+	clear: left;
+}
+.pleasers h2 {
+	font-size: 1.2em;
+	color: #fff;
+	margin-top: 15px;
+	float: right;
+}
+.pleasers p {
+	clear: both;
+	color: #d99d9d;
+	float: left;
+	margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

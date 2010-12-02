@@ -1,0 +1,206 @@
+*, body, address, blockquote, dl, ol, ul, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p, pre {
+  margin:0;
+  padding:0;
+	border:none;
+	text-decoration: none;
+	list-style: none;
+}
+html, body {
+  height: 100%; /* for sticky footer */ 
+  position: absolute; /* Opera height trigger*/
+  width: 100%;
+}
+body {
+  background: url('../img/homepage-bg.png') repeat-y;
+  background-position: 0 0;
+  background-attachment: fixed;
+  background-color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-size: 62.5%;
+  line-height: 1em;
+  color: #d99d9d;
+}
+p {
+  font-size:1.2em;
+  line-height:1.5em;
+  letter-spacing: .02em;
+  
+}
+#header {
+  background: url('../img/header-bg.png') repeat-x;
+  height: 95px;
+  width: 100%;
+  min-width: 800px;
+  position: absolute;
+  margin-bottom: -95px;
+	position: relative;
+}
+.hwrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 25px 15px 0;
+}
+a.logo {
+  background: url('../img/logo.png') no-repeat;
+  width: 112px;
+  height: 46px;
+  display: block;
+  float: left;
+  margin-left: 15px;
+}
+#nav {
+  float: left;
+  display: block;
+  margin: 34px 0 0 30px;
+}
+#nav li {
+  float: left;
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-shadow: 0px 1px 1px #8a2d26;
+  font-size: 14px;
+  color: #2e0505;
+  margin-left: 70px;
+}
+#nav a {
+  color: #2e0505;
+  font-size: 1.3em;
+}
+#nav a:hover {
+  color: #eee;
+  text-shadow: 0px -1px 1px #000;
+}
+#content {
+  position:relative;
+  margin: 0 auto -115px;
+  width: 800px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%; /* For IE */
+  z-index: -1;
+}
+#clearheader {
+  height: 95px;
+}
+#splash {
+  width: 100%;
+  background: rgb(5, 7, 7); /* Fallback for web browsers that doesn't support RGBa */
+  background: rgba(50, 7, 7, 0.6); /* RGBa with 0.6 opacity */
+  overflow: hidden;
+}
+
+.updates {
+  width: 170px;
+  padding: 25px 15px;
+  float: left;
+}
+.slide {
+  width:600px;
+  float: left;
+}
+address {
+  font: normal 1.2em Helvetica, sans-serif;
+  line-height:1.5em;
+  margin-bottom:20px;
+}
+.notice {
+  margin-bottom:20px;
+}
+.notice h1 {
+  font-size: 1.6em;
+  margin: 15px 0 10px;
+  color: #fff;
+  font-weight: normal;
+}
+#clearfooter{clear:both; height: 115px;} /*For a sticky footer*/
+#footer {
+  background: url('../img/footer-bg.png') repeat-x;
+  height: 115px;
+  margin: -115px auto 0 auto; /*pull footer back into viewport and center*/
+
+}
+.fwrap {
+  margin: 0 auto;
+  width: 800px;
+	overflow: hidden;
+}
+.cta {
+  float:left;
+  font: normal 1.2em "Helvetica Neue", sans-serif;
+	line-height: 1.5em;
+  width:170px;
+  padding: 30px 15px 0;
+}
+/*menu*/
+.catbox {
+	border: 1px solid #fff;
+	float: left;
+	padding: 15px;
+}
+h3.category {
+	font-size: 1.6em;
+}
+.pleasers {
+	width: 300px;
+	float: left;
+}
+.pleasers h1 {
+	font-size: 1.2em;
+	text-transform: capitalize;
+	color: #fff;
+	margin-top: 15px;
+	float: left;
+	clear: left;
+}
+.pleasers h2 {
+	font-size: 1.2em;
+	color: #fff;
+	margin-top: 15px;
+	float: right;
+}
+.pleasers p {
+	clear: both;
+	color: #d99d9d;
+	float: left;
+	margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
