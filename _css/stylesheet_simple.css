@@ -1,0 +1,61 @@
+*, body, address, blockquote, dl, ol, ul, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p, pre {
+  margin:0;
+  padding:0;
+	border:none;
+	text-decoration: none;
+	list-style: none;
+}
+html, body {
+  height: 100%; /* for sticky footer */ 
+  position: absolute; /* Opera height trigger*/
+  width: 100%;
+}
+body {
+  background: url('../_img/homepage-bg.png') repeat-y;
+  background-attachment: fixed;
+  background-color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-size: 62.5%;
+  line-height: 1em;
+  color: #d99d9d;
+}
+
+/*****************************HEADER*/
+#header {
+  background: url('../_img/header-bg.png') repeat-x;
+  height: 95px;
+  width: 100%;
+  min-width: 800px;
+  margin-bottom: -95px;
+	position: relative;
+}
+* html #header {
+    width: 100%; /* Fallback width if javascript is off */
+    width: expression(  
+    (document.documentElement.clientWidth < 964) ? "962px" : "auto");
+}
+
+#content {
+	min-height: 100%;
+	width: 800px;
+  margin: 0 auto;
+}
+* html #content {height:100%;} /*for ie6, same as min-height*/
+
+#clearheader { height: 95px; }
+
+/*****************************STICKY-FOOTER*/
+#clearfooter { clear:both; height: 115px; } /*For a sticky footer*/
+#footer {
+  background: url('../_img/footer-bg.png') repeat-x;
+  height: 115px;
+  margin: -115px auto 0 auto; /*pull footer back into viewport and center*/
+}
+/*****************************HOME*/
+#home {
+  width: 100%;
+  background: rgb(5, 7, 7); /* Fallback for web browsers that doesn't support RGBa */
+  background: rgba(50, 7, 7, 0.6); /* RGBa with 0.6 opacity */
+  float:left;
+}
+

@@ -76,12 +76,10 @@ a.logo {
   height: 100%; *//* For IE */
   z-index: -1;
 }
-#clearheader {
-  height: 95px;
-}
-/*****************************STICKY-FOOTER*/
+#clearheader { height: 95px; }
 
-#clearfooter{clear:both; height: 115px;} /*For a sticky footer*/
+/*****************************STICKY-FOOTER*/
+#clearfooter { clear:both; height: 115px; } /*For a sticky footer*/
 #footer {
   background: url('../_img/footer-bg.png') repeat-x;
   height: 115px;
@@ -91,7 +89,7 @@ a.logo {
   margin: 0 auto;
   width: 800px;
 	overflow: hidden;
-}
+} 	
 .cta {
   float:left;
   font: normal 1.2em "Helvetica Neue", sans-serif;
@@ -135,6 +133,17 @@ address {
   background: rgb(0, 0, 0); /* Fallback for web browsers that doesn't support RGBa */
   background: rgba(0, 0, 0, 0.6); /* RGBa with 0.6 opacity */
 	float:left;
+}
+#foodnav {
+	border-bottom: 1px solid red;
+	overflow: hidden;
+	font-size: 12px;
+	margin-top:20px;
+}
+#foodnav li {
+	float: left;
+	display: block;
+	margin-right: 20px;
 }
 .catbox {
 	float: left;
