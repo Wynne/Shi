@@ -134,16 +134,23 @@ address {
   background: rgba(0, 0, 0, 0.6); /* RGBa with 0.6 opacity */
 	float:left;
 }
+#menu h1, #menu h2 {
+  font-weight: normal;
+}
 #foodnav {
 	border-bottom: 1px solid red;
 	overflow: hidden;
 	font-size: 12px;
 	margin-top:20px;
+	background-color: #ddd;
 }
 #foodnav li {
 	float: left;
 	display: block;
 	margin-right: 20px;
+}
+#foodnav li:hover {
+  cursor:pointer;
 }
 .catbox {
 	float: left;
@@ -152,11 +159,11 @@ address {
 h3.category {
 	font-size: 1.6em;
 }
-.pleasers {
+.lwrap {
 	width: 300px;
 	float: left;
 }
-.pleasers h1 {
+.catbox h1 {
 	font-size: 1.2em;
 	text-transform: capitalize;
 	color: #fff;
@@ -164,13 +171,13 @@ h3.category {
 	float: left;
 	clear: left;
 }
-.pleasers h2 {
+.catbox h2 {
 	font-size: 1.2em;
 	color: #fff;
 	margin-top: 15px;
 	float: right;
 }
-.pleasers p {
+.catbox p {
 	clear: both;
 	color: #d99d9d;
 	float: left;

@@ -1,18 +1,18 @@
 <?php include ('_php/header.php'); ?>
 <div id="menu">
 <ol id="foodnav">
-	<li class="all_foods_and_drinks"><a href="all-foods-and-drinks.php">all foods and drinks</a></li>
-	<li class="starters_soups_and_salad"><a href="starters-soups-and-salad.php">starters, soups, and salad</a></li>
-	<li class="entrees_and_favorites"><a href="entrees-and-favorites.php">entrees and favorites</a></li>
-	<li class="cold_appetizers"><a href="cold-appetizers.php">cold appetizers</a></li>
-	<li class="sushi_sashimi_and_rolls"><a href="sushi-sashimi-and-rolls.php">sushi, sashimi, and rolls</a></li>
-	<li class="dessert"><a href="dessert.php">dessert</a></li>
-	<li class="drinks"><a href="drinks.php">drinks</a></li>
+	<li title="all">all foods and drinks</a></li>
+	<li title="starters">starters, soups, and salad</a></li>
+	<li title="entrees"><entrees and favorites</a></li>
+	<li title="coldapps">cold appetizers</a></li>
+	<li title="sushi">sushi, sashimi, and rolls</a></li>
+	<li title="dessert">dessert</a></li>
+	<li title="drinks">drinks</a></li>
 </ol>
 
-<div class="catbox">	
+<div class="catbox starters">	
 	<h3 class="category">Palate Pleasers</h3>
-	<div class="pleasers">
+	<div class="lwrap">
 	<h1>vegetable spring roll (2)</h1><h2>5</h2>
 	<p>pork | vegetable | chicken</p>		
 	<h1>summer rolls (2)</h1><h2>5<h2/>
@@ -36,9 +36,9 @@
 	<p>chicken or vegetable</p>
 </div></div>
 
-<div class="catbox">	
+<div class="catbox entrees">	
 	<h3 class="category">Palate Pleasers</h3>
-	<div class="pleasers">
+	<div class="lwrap">
 	<h1>vegetable spring roll (2)</h1><h2>5</h2>
 	<p>pork | vegetable | chicken</p>		
 	<h1>summer rolls (2)</h1><h2>5<h2/>
@@ -62,9 +62,9 @@
 	<p>chicken or vegetable</p>
 </div></div>
 
-<div class="catbox">	
+<div class="catbox drinks">	
 	<h3 class="category">Palate Pleasers</h3>
-	<div class="pleasers">
+	<div class="lwrap">
 	<h1>vegetable spring roll (2)</h1><h2>5</h2>
 	<p>pork | vegetable | chicken</p>		
 	<h1>summer rolls (2)</h1><h2>5<h2/>

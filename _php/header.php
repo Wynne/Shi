@@ -17,8 +17,8 @@
 
 	<link href="_css/stylesheet_sticky.css" rel="stylesheet" type="text/css" media="all" />
 	
-	<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-	<script type="text/javascript" src="_js/script.js"></script> -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="_js/script.js"></script>
 </head>
 <body class="home">
   <div id="header">
