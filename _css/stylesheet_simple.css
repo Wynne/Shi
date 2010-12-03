@@ -11,8 +11,9 @@ html, body {
   width: 100%;
 }
 body {
-  background: url('../_img/homepage-bg.png') repeat-y;
-  background-attachment: fixed;
+  /*background: url('../_img/homepage-bg.png') repeat-y;
+    background-attachment: fixed;*/
+  background: url('../_img/bg-pattern.png') repeat;
   background-color: #000000;
   font-family: Helvetica, sans-serif;
   font-size: 62.5%;
