@@ -1,16 +1,16 @@
 <?php include ('_php/header.php'); ?>
 <div id="menu">
-<ol id="foodnav">
-	<li title="all">all foods and drinks</a></li>
-	<li title="starters">starters, soups, and salad</a></li>
-	<li title="entrees">entrees and favorites</a></li>
-	<li title="coldapps">cold appetizers</a></li>
-	<li title="sushi">sushi, sashimi, and rolls</a></li>
-	<li title="dessert">dessert</a></li>
-	<li title="drinks">drinks</a></li>
+<ol id="mNav">
+	<li><a href="#" alt="all">all</a></li>
+	<li><a href="#" alt="starters">starters</a></li>
+	<li><a href="#" alt="entrees">entrees</a></li>
+	<li><a href="#" alt="sushi">sushi</a></li>
+	<li><a href="#" alt="dessert">dessert</a></li>
+	<li><a href="#" alt="drinks">drinks</a></li>
 </ol>
 
-<div class="catbox starters">	
+<ul id="mList">
+<li class="starters">	
 	<h3 class="category">Palate Pleasers</h3>
 	<div class="lwrap">
 	<h1>vegetable spring roll (2)</h1><h2>5</h2>
@@ -34,9 +34,9 @@
 	<h1>shumai</h1>	<h2>6</h2>
 	<h1>lettuce wrap</h1>	<h2>9</h2>
 	<p>chicken or vegetable</p>
-</div></div>
+</div></li>
 
-<div class="catbox entrees">	
+<li class="entrees">	
 	<h3 class="category">Entrees</h3>
 	<div class="lwrap">
 	<h1>vegetable spring roll (2)</h1><h2>5</h2>
@@ -60,9 +60,9 @@
 	<h1>shumai</h1>	<h2>6</h2>
 	<h1>lettuce wrap</h1>	<h2>9</h2>
 	<p>chicken or vegetable</p>
-</div></div>
+</div></li>
 
-<div class="catbox coldapps">	
+<li class="sushi">	
 	<h3 class="category">Coldapps</h3>
 	<div class="lwrap">
 	<h1>vegetable spring roll (2)</h1><h2>5</h2>
@@ -86,9 +86,9 @@
 	<h1>shumai</h1>	<h2>6</h2>
 	<h1>lettuce wrap</h1>	<h2>9</h2>
 	<p>chicken or vegetable</p>
-</div></div>
+</div></li>
 
-<div class="catbox drinks">	
+<li class="drinks">	
 	<h3 class="category">Drinks</h3>
 	<div class="lwrap">
 	<h1>vegetable spring roll (2)</h1><h2>5</h2>
@@ -112,6 +112,7 @@
 	<h1>shumai</h1>	<h2>6</h2>
 	<h1>lettuce wrap</h1>	<h2>9</h2>
 	<p>chicken or vegetable</p>
-</div></div>
+</div></li>
+</ol>
 </div>
 <?php include ('_php/footer.php'); ?>
