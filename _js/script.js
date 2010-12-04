@@ -1,20 +1,17 @@
 /***********************************************************************************************************************
 DEVELOPED BY: WYNNE CHAN
-COMPANY: Zipline Interactive
-EMAIL: ryan@gozipline.com
-DATE: 3/26/2009
 ************************************************************************************************************************/
 $(document).ready(function() {
  
     $('#foodnav > li').click(function() {
       
       var p = this.title
-      
-      var e = 
-      
-      if (#menu.children() != p) {
-        this.css('visibility', 'hidden');
-      }
+			
+			if (! $('#menu > div').hasClass(p) ) {
+					$('#menu > div').hide();
+			} 
+      //$('.catbox').filter('.'+p).hide();
+			//alert('.'+p);
       
       
       
@@ -25,3 +22,5 @@ $(document).ready(function() {
   
  
 });
+
+// if class does not match title then hide.
