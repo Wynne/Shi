@@ -15,6 +15,6 @@
       <p>A non-stop ghoulish celebration starting with a free drink and a spectacular view of NYC skyline!</p>
     </div>
   </div>
-  <div class="slide"><img src="_img/slideshow-place-holder.png" width="600" height="525" alt="Slideshow Place Holder"></div>
+  <div id="slideshow"></div>
 </div>
 <?php include ('_php/footer.php'); ?>

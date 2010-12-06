@@ -481,7 +481,7 @@ var DEBUG = false,
 */
 
 Galleria = function() {
-
+//alert('gallery firing');
     var self = this;
 
     // the theme used

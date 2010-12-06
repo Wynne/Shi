@@ -30,12 +30,12 @@ p {
   background: url('../_img/header-bg.png') repeat-x;
   height: 95px;
   width: 100%;
-  min-width: 800px;
+  min-width: 1000px;
   margin-bottom: -95px;
 	position: relative;
 }
 .hwrap {
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
   padding: 25px 15px 0;
 }
@@ -71,7 +71,7 @@ a.logo {
 }
 #content {
   margin: 0 auto;
-  width: 800px;
+  width: 1000px;
   min-height: 100%;
 /*  height: auto !important;
   height: 100%; *//* For IE */
@@ -88,7 +88,7 @@ a.logo {
 }
 .fwrap {
   margin: 0 auto;
-  width: 800px;
+  width: 1000px;
 	overflow: hidden;
 } 	
 .cta {
@@ -107,12 +107,13 @@ a.logo {
 }
 
 .updates {
-  width: 170px;
+  width: 270px;
   padding: 25px 15px;
   float: left;
 }
-.slide {
-  width:600px;
+#slideshow {
+  width:700px;
+	height: 500px;
   float: left;
 }
 address {
@@ -185,9 +186,17 @@ h3.category {
 	margin-top: 3px;
 }
 
+/*****************************GALLERY*/
 
+#galleria {
+	margin: 0 auto;
+	width: 900px;
+	height: 650px;
+}
 
-
+#slideshow.galleria-stage {
+	margin-bottom: -40px;
+}
 
 
 

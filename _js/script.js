@@ -39,24 +39,33 @@ $(document).ready(function() {
 	var api_key = '6ca1c0d0bc4d221c134d43a82a4eec97' // you must have a flickr API key
   var flickr = new Galleria.Flickr(api_key); // initialize the plugin 
 
- 	flickr.setOptions({
-      max: 60,
-      size: 'medium',
-      //sort: 'date-posted-desc'
-  });
-	
-	$('#nav li.gallery a').click(function () {
-		flickr.getUser('ohwynne', function(data){
-	      $('#galleria').galleria({
-	          data_source: data
-	      });
-				$.each(data.items, function(i,item){
-				    $("<img/>").attr("src", item.media.m).appendTo("#images")
-				      .wrap("<a href='" + item.link + "'></a>");
-				  });
-		
-	  });
- 	});
+			flickr.getUser('ohwynne', function(data){
+				
+					$('#slideshow').galleria({
+		          data_source: data,
+							autoplay: 3000,
+							transition: 'fade',
+							image_crop: true,
+							thumbnails: false,
+							carousel: false,
+							show_info: false
+
+		      });
+					
+		      $('#galleria').galleria({
+		          data_source: data,
+							autoplay: 3000,
+							transition: 'fade',
+							image_crop: true
+
+		      });
+			});
+			flickr.setOptions({
+				max: 40,										// Sets the amount of images that will be fetched (max 100)
+        size: 'big',							// Size of the flickr images to be fetched, options are: 'small', 'medium','big' and 'original'
+        //sort: 'date-posted-desc',		// How to sort images, options are: 'date-posted-asc', 'date-posted-desc', 'date-taken-asc', 'date-taken-desc', 'interestingness-desc', 'interestingness-asc', and 'relevance'
+				description: true						// true or false
+			})
 
 });
 

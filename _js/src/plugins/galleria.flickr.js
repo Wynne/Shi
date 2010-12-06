@@ -111,6 +111,7 @@ F.prototype = {
 
     // set options
     setOptions: function( options ) {
+	
         $.extend(this.options, options);
         return this;
     },
