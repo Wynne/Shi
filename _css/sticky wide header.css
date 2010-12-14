@@ -1,0 +1,262 @@
+*, body, address, blockquote, dl, ol, ul, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p, pre {
+  margin:0;
+  padding:0;
+	border:none;
+	text-decoration: none;
+	list-style: none;
+}
+html, body {
+  height: 100%; /* for sticky footer */ 
+  position: absolute; /* Opera height trigger*/
+  width: 100%;
+}
+body {
+  /*background: url('../_img/homepage-bg.png') repeat-y;*/
+  background: url('../_img/bg-pattern.png') repeat;
+  background-attachment: fixed;
+  background-color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-size: 62.5%;
+  line-height: 1em;
+  color: #d99d9d;
+}
+p {
+  font-size:1.2em;
+  line-height:1.5em;
+  letter-spacing: .02em;
+}
+/*****************************HEADER*/
+#header {
+  background: url('../_img/header-bg.png') repeat-x;
+  height: 95px;
+  width: 100%;
+  min-width: 1000px;
+  margin-bottom: -95px;
+	position: relative;
+}
+.hwrap {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 25px 15px 0;
+}
+a.logo {
+  background: url('../_img/logo.png') no-repeat;
+  width: 112px;
+  height: 46px;
+  display: block;
+  float: left;
+  margin-left: 15px;
+}
+#nav {
+  float: left;
+  display: block;
+  margin: 34px 0 0 30px;
+}
+#nav li {
+  float: left;
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-shadow: 0px 1px 1px #8a2d26;
+  font-size: 14px;
+  color: #2e0505;
+  margin-left: 70px;
+}
+#nav a {
+  color: #2e0505;
+  font-size: 1.3em;
+}
+#nav a:hover {
+  color: #eee;
+  text-shadow: 0px -1px 1px #000;
+}
+#content {
+  margin: 0 auto;
+  width: 1000px;
+  min-height: 100%;
+/*  height: auto !important;
+  height: 100%; *//* For IE */
+  z-index: -1;
+}
+#clearheader { height: 95px; }
+
+/*****************************STICKY-FOOTER*/
+#clearfooter { clear:both; height: 115px; } /*For a sticky footer*/
+#footer {
+  background: url('../_img/footer-bg.png') repeat-x;
+  height: 115px;
+  margin: -115px auto 0 auto; /*pull footer back into viewport and center*/
+}
+.fwrap {
+  margin: 0 auto;
+  width: 1000px;
+	overflow: hidden;
+} 	
+.cta {
+  float:left;
+	color: #d32c2c;
+  font: normal 1.3em "Helvetica Neue", sans-serif;
+	line-height: 1.5em;
+  width:170px;
+  padding: 30px 15px 0 35px;
+	letter-spacing: .07em;
+}
+.reserve {
+	background: url('../_img/icon-reserve.png') no-repeat left;
+}
+.order {
+	background: url('../_img/icon-takeout.png') no-repeat left;
+}
+.cta a {
+	color: #fff;
+	background: url('../_img/icon-arrow.png') no-repeat right;
+	padding-right: 15px;
+}
+/*****************************HOME*/
+#home {
+  width: 100%;
+  background: rgb(5, 7, 7); /* Fallback for web browsers that doesn't support RGBa */
+  background: rgba(50, 7, 7, 0.6); /* RGBa with 0.6 opacity */
+  float:left;
+}
+
+.updates {
+  width: 270px;
+  padding: 25px 15px;
+  float: left;
+}
+#slideshow {
+  width:700px;
+	height: 500px;
+  float: left;
+}
+address {
+  font: normal 1.2em Helvetica, sans-serif;
+  line-height:1.5em;
+  margin-bottom:20px;
+}
+.notice {
+  margin-bottom:20px;
+}
+.notice h1 {
+  font-size: 1.6em;
+  margin: 15px 0 10px;
+  color: #fff;
+  font-weight: normal;
+}
+/*****************************MENU*/
+#menu {
+	background: url('../_img/menubg.jpg') no-repeat bottom ;
+	background-attachment: fixed;
+ /*  background: rgb(0, 0, 0); Fallback for web browsers that doesn't support RGBa */
+ /*  background: rgba(0, 0, 0, 0.6);  RGBa with 0.6 opacity */
+	float:left;
+	width: 100%;
+}
+#menu h1, #menu h2 {
+  font-weight: normal;
+}
+#mNav {
+	border-bottom: 1px solid red;
+	overflow: hidden;
+	font-size: 12px;
+	margin:50px;
+	height: 22px;
+}
+#mNav li {
+	float: left;
+	display: block;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+#mNav a {
+	color: #7f4e4e;
+	display: block;
+	padding-bottom: 10px;
+}
+#mNav a:hover {
+	color: #fff;
+	border-bottom:2px solid red;
+}
+#mList {
+	width: 800px;
+}
+#mList li {
+	float: left;
+	padding: 15px;
+	margin:20px 30px;
+}
+h3.category {
+	font-size: 1.6em;
+}
+.lwrap {
+	width: 300px;
+	float: left;
+}
+#mList li h1 {
+	font-size: 1.2em;
+	text-transform: capitalize;
+	color: #fff;
+	margin-top: 15px;
+	float: left;
+	clear: left;
+}
+#mList li h2 {
+	font-size: 1.2em;
+	color: #fff;
+	margin-top: 15px;
+	float: right;
+}
+#mList li p {
+	clear: both;
+	color: #d99d9d;
+	float: left;
+	margin-top: 3px;
+}
+
+/*****************************GALLERY*/
+
+#galleria {
+	margin: 0 auto;
+	width: 900px;
+	height: 650px;
+}
+
+#slideshow.galleria-stage {
+	margin-bottom: -40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
