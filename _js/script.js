@@ -40,7 +40,6 @@ $(document).ready(function() {
   var flickr = new Galleria.Flickr(api_key); // initialize the plugin 
 
 			flickr.getUser('ohwynne', function(data){
-				
 					$('#slideshow').galleria({
 		          data_source: data,
 							autoplay: 3000,

@@ -24,18 +24,17 @@
 	
 </head>
 <body class="home">
-  <div id="header">
-    <div class="hwrap">    
-      <a class="logo" href="index.php" title="Go to S.H.I homepage"> </a>
-      <ol id="nav">
-    	  <li class="menu" title="Got to the Menu section"><a href="menu.php">Menu</a></li>
-    	  <li class="gallery" title="Got to the Gallery section"><a href="gallery.php">Gallery</a></li>
-    	  <li class="events" title="Got to the Events section"><a href="events.php">Events</a></li>
-    	  <li class="contact" title="Got to the Contact section"><a href="contact.php">Contact</a></li>
-    	  <li class="about" title="Got to the About section"><a href="about.php">About</a></li>
-      </ol>
-    </div>
-	</div><!-- End Header -->
+
 	<!-- Begin Content -->
-	<div id="content">
-	<div id="clearheader"></div> 
+<div id="wrapper">
+		<div id="header">
+	      <a class="logo" href="index.php" title="Go to S.H.I homepage"> </a>
+	      <ol id="nav">
+	    	  <li class="menu" title="Got to the Menu section"><a href="menu.php">Menu</a></li>
+	    	  <li class="gallery" title="Got to the Gallery section"><a href="gallery.php">Gallery</a></li>
+	    	  <li class="events" title="Got to the Events section"><a href="events.php">Events</a></li>
+	    	  <li class="contact" title="Got to the Contact section"><a href="contact.php">Contact</a></li>
+	    	  <li class="about" title="Got to the About section"><a href="about.php">About</a></li>
+	      </ol>
+		</div><!-- End Header -->
+		<div id="clearheader"></div>

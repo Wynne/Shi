@@ -11,10 +11,10 @@ html, body {
   width: 100%;
 }
 body {
-  /*background: url('../_img/homepage-bg.png') repeat-y;
-    background-attachment: fixed;*/
-  background: url('../_img/bg-pattern.png') repeat;
-  background-color: #000000;
+  /*background: url('../_img/homepage-bg.png') repeat-y;*/
+  /*background: url('../_img/bg-pattern.png') repeat;*/
+  background-attachment: fixed;
+  background-color: #fff;
   font-family: Helvetica, sans-serif;
   font-size: 62.5%;
   line-height: 1em;
@@ -30,27 +30,23 @@ p {
   background: url('../_img/header-bg.png') repeat-x;
   height: 95px;
   width: 100%;
-  min-width: 1000px;
+  min-width: 980px;
   margin-bottom: -95px;
 	position: relative;
 }
-.hwrap {
-  width: 1000px;
-  margin: 0 auto;
-  padding: 25px 15px 0;
-}
+
 a.logo {
   background: url('../_img/logo.png') no-repeat;
   width: 112px;
   height: 46px;
   display: block;
   float: left;
-  margin-left: 15px;
+  margin: 25px 0 0 80px;
 }
 #nav {
   float: left;
   display: block;
-  margin: 34px 0 0 30px;
+  margin: 59px 0 0 80px;
 }
 #nav li {
   float: left;
@@ -69,9 +65,11 @@ a.logo {
   color: #eee;
   text-shadow: 0px -1px 1px #000;
 }
-#content {
+#wrapper {
+	background: rgb(5, 7, 7); /* Fallback for web browsers that doesn't support RGBa */
+  background: rgba(50, 7, 7, 0.6); /* RGBa with 0.6 opacity */
   margin: 0 auto;
-  width: 1000px;
+  width: 980px;
   min-height: 100%;
 /*  height: auto !important;
   height: 100%; *//* For IE */
@@ -80,39 +78,47 @@ a.logo {
 #clearheader { height: 95px; }
 
 /*****************************STICKY-FOOTER*/
-#clearfooter { clear:both; height: 115px; } /*For a sticky footer*/
+#clearfooter { clear:both; height: 130px; } /*For a sticky footer*/
 #footer {
-  background: url('../_img/footer-bg.png') repeat-x;
-  height: 115px;
-  margin: -115px auto 0 auto; /*pull footer back into viewport and center*/
-}
-.fwrap {
-  margin: 0 auto;
-  width: 1000px;
-	overflow: hidden;
-} 	
+	width: 980px;
+  background-color: #000;
+  height: 130px;
+  margin: -130px auto 0 auto; /*pull footer back into viewport and center*/
+}	
 .cta {
   float:left;
-  font: normal 1.2em "Helvetica Neue", sans-serif;
+	color: #d32c2c;
+  font: normal 1.3em "Helvetica Neue", sans-serif;
 	line-height: 1.5em;
   width:170px;
-  padding: 30px 15px 0;
+  padding-left:35px;
+	margin: 50px 20px 0;
+}
+.reserve {
+	background: url('../_img/icon-reserve.png') no-repeat left;
+}
+.order {
+	background: url('../_img/icon-takeout.png') no-repeat left;
+}
+.cta a {
+	color: #fff;
+	background: url('../_img/icon-arrow.png') no-repeat right;
+	padding-right: 15px;
 }
 /*****************************HOME*/
 #home {
   width: 100%;
-  background: rgb(5, 7, 7); /* Fallback for web browsers that doesn't support RGBa */
-  background: rgba(50, 7, 7, 0.6); /* RGBa with 0.6 opacity */
   float:left;
+	background: url('../_img/home-bg.jpg') no-repeat;
 }
 
 .updates {
-  width: 270px;
-  padding: 25px 15px;
+  width: 260px;
+  padding: 25px 20px;
   float: left;
 }
 #slideshow {
-  width:700px;
+  width:600px;
 	height: 500px;
   float: left;
 }
@@ -132,9 +138,12 @@ address {
 }
 /*****************************MENU*/
 #menu {
-  background: rgb(0, 0, 0); /* Fallback for web browsers that doesn't support RGBa */
-  background: rgba(0, 0, 0, 0.6); /* RGBa with 0.6 opacity */
+	background: url('../_img/menubg.jpg') no-repeat bottom ;
+	background-attachment: fixed;
+ /*  background: rgb(0, 0, 0); Fallback for web browsers that doesn't support RGBa */
+ /*  background: rgba(0, 0, 0, 0.6);  RGBa with 0.6 opacity */
 	float:left;
+	width: 100%;
 }
 #menu h1, #menu h2 {
   font-weight: normal;
@@ -143,12 +152,23 @@ address {
 	border-bottom: 1px solid red;
 	overflow: hidden;
 	font-size: 12px;
-	margin-top:20px;
+	margin:50px;
+	height: 22px;
 }
 #mNav li {
 	float: left;
 	display: block;
 	margin-right: 20px;
+	text-transform: uppercase;
+}
+#mNav a {
+	color: #7f4e4e;
+	display: block;
+	padding-bottom: 10px;
+}
+#mNav a:hover {
+	color: #fff;
+	border-bottom:2px solid red;
 }
 #mList {
 	width: 800px;
@@ -198,9 +218,13 @@ h3.category {
 	margin-bottom: -40px;
 }
 
+/*****************************EVENTS*/
 
-
-
+#events {
+	margin: 0 auto;
+	width: 980px;
+	background: url('../_img/event-bg.jpg') no-repeat;
+}
 
 
 
