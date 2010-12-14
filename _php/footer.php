@@ -9,7 +9,10 @@
     Take-Out 718 883-8888<br /><a href="">order online</a>
   </div>
   <div class="cta">
-    <form id="newsletter" action="action" method="post">
+    <form id="newsletter" action="http://groups.google.com/group/hottotti/boxsubscribe">
+      <label for="email">Stay in the Loop!</label>
+      <input type=text name=email>
+      <p class="submit"><input type=submit name="sub" value="Yes!"></p>    
     </form>
 	</div>
 </div>

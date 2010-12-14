@@ -11,10 +11,10 @@ html, body {
   width: 100%;
 }
 body {
-  /*background: url('../_img/homepage-bg.png') repeat-y;*/
-  /*background: url('../_img/bg-pattern.png') repeat;*/
+/*  background: url('../_img/bg.jpg') no-repeat;
+*/  /*background: url('../_img/bg-pattern.png') repeat;*/
   background-attachment: fixed;
-  background-color: #fff;
+  background-color: #951313;
   font-family: Helvetica, sans-serif;
   font-size: 62.5%;
   line-height: 1em;
@@ -66,8 +66,10 @@ a.logo {
   text-shadow: 0px -1px 1px #000;
 }
 #wrapper {
-	background: rgb(5, 7, 7); /* Fallback for web browsers that doesn't support RGBa */
-  background: rgba(50, 7, 7, 0.6); /* RGBa with 0.6 opacity */
+  background: url('../_img/home-bg.jpg') no-repeat fixed center top;
+  
+	/*background: rgb(5, 7, 7); Fallback for web browsers that doesn't support RGBa */
+  /*background: rgba(50, 7, 7, 0.6);  RGBa with 0.6 opacity */
   margin: 0 auto;
   width: 980px;
   min-height: 100%;
@@ -84,6 +86,7 @@ a.logo {
   background-color: #000;
   height: 130px;
   margin: -130px auto 0 auto; /*pull footer back into viewport and center*/
+  border-top: 1px solid #951313;
 }	
 .cta {
   float:left;
@@ -109,8 +112,8 @@ a.logo {
 #home {
   width: 100%;
   float:left;
-	background: url('../_img/home-bg.jpg') no-repeat;
-}
+/*  background: url('../_img/home-bg.jpg') no-repeat;
+*/}
 
 .updates {
   width: 260px;
@@ -138,8 +141,8 @@ address {
 }
 /*****************************MENU*/
 #menu {
-	background: url('../_img/menubg.jpg') no-repeat bottom ;
-	background-attachment: fixed;
+/*  background: url('../_img/menubg.jpg') no-repeat bottom ;
+*/	background-attachment: fixed;
  /*  background: rgb(0, 0, 0); Fallback for web browsers that doesn't support RGBa */
  /*  background: rgba(0, 0, 0, 0.6);  RGBa with 0.6 opacity */
 	float:left;
@@ -222,14 +225,54 @@ h3.category {
 
 #events {
 	margin: 0 auto;
-	width: 980px;
-	background: url('../_img/event-bg.jpg') no-repeat;
+	width: 460px;
+	/*background: url('../_img/event-bg.jpg') no-repeat;*/
 }
 
+#events .eventbox {
+  margin-top: 60px;
+  border-bottom: 3px solid #140301;
+  position: relative;
+  width: 100%;
+  float: left;
+  padding-bottom: 25px;
+  color: #ffffff;
+}
 
+#events .info {
+  float: left;
+  width: 400px;
+}
 
+#events .info h1 {
+  font-size: 2em;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #ffd9d6;
+}
+#events p {
+  line-height: 1.6em;
+  color: #fff;
+}
 
+#events .date {
+  position: absolute;
+  right: 1px;
+  bottom: 25px;
+}
 
+#events .month {
+  text-transform: uppercase;
+  color: #ffd9d6;
+}
+
+#events .day {
+  text-align: center;
+  font-size: 2.4em;
+  line-height: 1em;
+  color: #fff;
+  font-weight: normal;
+}
 
 
 
