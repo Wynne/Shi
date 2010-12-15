@@ -1,5 +1,8 @@
-<?php include ('_php/header.php'); ?>
+<?php
+    $navsection = 'about';
+?>	
+<?php include ('_includes/header.php'); ?>
 	<div id="about">
 		
 	</div>
-<?php include ('_php/footer.php'); ?>
+<?php include ('_includes/footer.php'); ?>

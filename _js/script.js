@@ -36,10 +36,10 @@ $(document).ready(function() {
   		
 	Galleria.loadTheme('_js/src/themes/classic/galleria.classic.js');
 		
-	var api_key = '6ca1c0d0bc4d221c134d43a82a4eec97' // you must have a flickr API key
+	var api_key = '02f19a8065f225e71146f550fe920652' // you must have a flickr API key
   var flickr = new Galleria.Flickr(api_key); // initialize the plugin 
 
-			flickr.getUser('ohwynne', function(data){
+			flickr.getUser('eatdrinkshi', function(data){
 					$('#slideshow').galleria({
 		          data_source: data,
 							autoplay: 3000,

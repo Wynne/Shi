@@ -1,4 +1,9 @@
-<?php include ('_php/header.php'); ?>
+<?php
+    $navsection = 'menu';
+?>
+<?php include ('_includes/header.php'); ?>
+
+
 <div id="menu">
 <ol id="mNav">
 	<li><a href="#" alt="all">all</a></li>
@@ -115,4 +120,4 @@
 </div></li>
 </ol>
 </div>
-<?php include ('_php/footer.php'); ?>
+<?php include ('_includes/footer.php'); ?>

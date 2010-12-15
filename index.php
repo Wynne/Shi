@@ -1,4 +1,8 @@
-<?php include ('_php/header.php'); ?>
+<?php
+    $navsection = 'home';
+?>
+
+<?php include ('_includes/header.php'); ?>
 		<div id="home">  
 		  <div class="updates">
 		    <address>
@@ -17,4 +21,4 @@
 		  </div>
 		  <div id="slideshow"></div>
 		</div>
-<?php include ('_php/footer.php'); ?>
+<?php include ('_includes/footer.php'); ?>

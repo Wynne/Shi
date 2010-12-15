@@ -1,4 +1,7 @@
-<?php include ('_php/header.php'); ?>
+<?php
+    $navsection = 'gallery';
+?>
+<?php include ('_includes/header.php'); ?>
 	<div id="galleria">
 	</div>
-<?php include ('_php/footer.php'); ?>
+<?php include ('_includes/footer.php'); ?>
